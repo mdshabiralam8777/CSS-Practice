@@ -1,0 +1,21 @@
+.flexBox {
+  display: flex;
+  color: green;
+  /* flex-direction: column; */
+  flex-direction: row-reverse;
+
+  flex-flow: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div img {
+  border: 1px solid lightgray;
+  padding: 10px;
+  width: 270px;
+  height: 270px;
+  margin: 5px;
+  text-align: center;
+  background-color: black;
+  border-radius: 25%;
+  /* flex-grow: 1; */
+}

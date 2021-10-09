@@ -1,0 +1,10 @@
+questions:
+1. What is Box Model?  (and box-sizing: border-box);
+2. what is specificity?
+3. How to align a block element inside another element?
+4. Difference between Static, Relative, Absolute, fixed position?
+5. what is the difference between visibility hidden and visibility 
+6. what is shadow dom and it's use? 
+7. How to make triangle using CSS?
+8. What are psudo element?
+9. What are data attributes?
