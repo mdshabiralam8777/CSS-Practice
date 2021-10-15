@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centre an Element</title>
+  </head>
+  <style>
+    .centre {
+      background-color: orangered;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #one {
+      width: 500px;
+      height: 500px;
+      border: 1px solid black;
+      /* text-align: center; */
+    }
+    #two {
+      width: 400px;
+      height: 400px;
+      border: 1px solid green;
+    }
+    #three {
+      width: 300px;
+      height: 300px;
+      border: 1px solid yellow;
+    }
+    #four {
+      width: 200px;
+      height: 200px;
+      border: 1px solid grey;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    p {
+      border: 1px solid blue;
+      padding: 0.5em;
+      border-radius: 0.5em;
+    }
+    #p1 {
+      border: none;
+      display: inline-block;
+      font-size: large;
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <p id="p1">Posititioning of element using position property</p>
+    <div class="centre" id="one">Div1</div>
+    <div class="centre" id="two">DIv2</div>
+    <div class="centre" id="three">Div3</div>
+    <div class="centre" id="four">
+      <p>I'm at centre</p>
+    </div>
+  </body>
+</html>
