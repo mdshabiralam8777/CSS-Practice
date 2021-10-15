@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Centre an Element</title>
+  </head>
+  <style>
+    .parent {
+      border: 2px solid black;
+      padding: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .centre {
+      background-color: orangered;
+      margin-right: 10px;
+    }
+    #one {
+      width: 300px;
+      height: 300px;
+      border: 1px solid black;
+      /* text-align: center; */
+    }
+    #two {
+      width: 200px;
+      height: 200px;
+      border: 1px solid green;
+    }
+    #three {
+      width: 150px;
+      height: 150px;
+      border: 1px solid yellow;
+    }
+    #four {
+      width: 100px;
+      height: 100px;
+      border: 1px solid grey;
+    }
+    p {
+      border: none;
+      display: inline-block;
+      font-size: large;
+      font-weight: bold;
+    }
+    span {
+      color: red;
+    }
+  </style>
+  <body>
+    <p>Posititioning of element using FlexBox property</p>
+    <br />
+    <p>All the below div are being centered w.r.t me <span>Parent Div</span></p>
+    <div class="parent">
+      <div class="centre" id="one">Div1</div>
+      <div class="centre" id="two">DIv2</div>
+      <div class="centre" id="three">Div3</div>
+      <div class="centre" id="four">
+        <p>I'm at centre</p>
+      </div>
+    </div>
+  </body>
+</html>
